@@ -1,26 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body id="page-top" class="index">
+<body>
 
-    {% include navbar.html %}
+    {% include nav.html %}
 
-    {% include header.html %}
-
-    {% include portfolio.html %}
-
-    {% include about.html %}
-
-    {% include contact.html %}
+    {{ content }}
 
     {% include footer.html %}
 
-    {% include modals.html %}
+    {% include ga.html %}
 
-    {% include javascript.html %}
-
-  </body>
+</body>
 
 </html>
